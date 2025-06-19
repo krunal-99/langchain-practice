@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const template = "Bring me the career stats of {player}";
-
 const prompt = new PromptTemplate({
   template,
   inputVariables: ["player"],
